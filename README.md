@@ -159,6 +159,11 @@
 - PR Link : https://github.com/eovhdnjawm1/CSS-Gallery/pull/28
 <img src="ReadmeImg/NavInteraction.gif">
 
+## 28. ClockIcon
+- 작성일자 : 2022-06-02
+- PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/1
+<img src="ReadmeImg/EffectClockIcon.gif">
+
 ## 리엑트화 작업 일지
 ### 2022-05-29
 메인 페이지에서 이미지를 클릭할 경우 해당 css를 직접 테스트 해볼 수 있는 곳으로 이동하는 작업을 하였음
@@ -197,3 +202,14 @@ aspect-ratio 화면 비율 조절 속성
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio
 참고
+
+### 2022-06-02
+React 파일을 배포
+
+처음에는 github.io로 쉽게 배보해보려고했지만
+CSS_Effect 폴더 내부에 Css_gallery가 있어서 문제가 잇었음
+css_gallery를 따로 레포지토리에 올리는 방식을 취하고
+github.io에 올려봤으나 router 에러가 지속적으로 발생하였고
+이에대한 해결방법으로 vercel에 배포
+
+정상적으로 배포
