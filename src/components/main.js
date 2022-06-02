@@ -1,7 +1,7 @@
 import '../css/Main.css'
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Routes, Route, Link, useNavigate, useParams } from 'react-router-dom'
+import { Routes, Route, useNavigate } from 'react-router-dom'
 import Card3D from './3dCom/Card3D.js'
 import FlipCard from './3dCom/FlipCard';
 import NeonMovingButton from './3dCom/NeonMovingButton';
@@ -38,7 +38,6 @@ const jsonEffect = '/effect_data.json'
 const jsonNav = '/navbar_data.json'
 
 function MainContainer() {
-	let navigate = useNavigate();
 	let [grapics, setGrapic] = useState([]);
 
 	let [clicks, setClicks] = useState([]);
@@ -77,7 +76,7 @@ function MainContainer() {
 		
 		<h1 style={{ color: "#fff" }}>Main Page - 클릭 시 test</h1>
 		<h1 style={{ color: "#fff" }}>Github 소스코드 확인 가능</h1>
-		<a href='https://github.com/eovhdnjawm1/CSS-Gallery' style={{ color: "#fff" }}>Git Checkout</a>
+		{/* <a href='https://github.com/eovhdnjawm1/CSS-Gallery' style={{ color: "#fff" }}>Git Checkout</a> */}
 				<div className='grapicContainer'>
 					<h2>3D CSS</h2>
 					{
