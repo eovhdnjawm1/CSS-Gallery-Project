@@ -28,8 +28,10 @@ import EffectNeonLoading from './EffectsCom/EffectsNeonLoading';
 import EffectBounceLoading from './EffectsCom/EffectsBounceLoading';
 import NavBarResponsive from './NavBarCom/NavResponsive';
 import NavBarFocusUp from './NavBarCom/NavFocusUp';
-
 import NavInteraction from './NavBarCom/NavInteraction';
+
+
+import EffectClockIcon from './EffectsCom/EffectsClcokInco';
 
 const url = 'https://eovhdnjawm1.github.io/db'
 const json3D = '/3D_data.json'
@@ -132,7 +134,8 @@ function MainContainer() {
 			</div>
 }></Route>
 
-				<Route path="/detail/0" element={<Card3D />} />
+				<Route path="/detail/0" element={<EffectClockIcon />} />
+				{/* <Route path="/detail/0" element={<Card3D />} /> */}
 				<Route path="/detail/1" element={<FlipCard />} />
 				<Route path="/detail/2" element={<NeonMovingButton />} />
 				
