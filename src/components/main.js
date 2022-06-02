@@ -79,6 +79,7 @@ function MainContainer() {
 		<h1 style={{ color: "#fff" }}>Main Page - 클릭 시 test</h1>
 		<h1 style={{ color: "#fff" }}>Github 소스코드 확인 가능</h1>
 		<a href='https://github.com/eovhdnjawm1/CSS-Gallery' style={{ color: "#fff" }}>Git Checkout 구버전</a>
+		<p></p>
 		<a href='https://github.com/eovhdnjawm1/CSS-Gallery-Project' style={{ color: "#fff" }}>Git Checkout 신버전</a>
 				<div className='grapicContainer'>
 					<h2>3D CSS</h2>
