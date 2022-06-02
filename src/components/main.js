@@ -134,8 +134,8 @@ function MainContainer() {
 			</div>
 }></Route>
 
-				<Route path="/detail/0" element={<EffectClockIcon />} />
-				{/* <Route path="/detail/0" element={<Card3D />} /> */}
+				
+				<Route path="/detail/0" element={<Card3D />} />
 				<Route path="/detail/1" element={<FlipCard />} />
 				<Route path="/detail/2" element={<NeonMovingButton />} />
 				
@@ -161,7 +161,8 @@ function MainContainer() {
 				<Route path="/effect/11" element={<EffectFocusBlur />} />
 				<Route path="/effect/12" element={<EffectNeonLoading />} />
 				<Route path="/effect/13" element={<EffectBounceLoading />} />
-				
+				<Route path="/effect/14" element={<EffectClockIcon />} />
+
 				<Route path="/navBar/0" element={<NavBarResponsive />} />
 				<Route path="/navBar/1" element={<NavBarFocusUp />} />
 				<Route path="/navBar/2" element={<NavInteraction />} />
