@@ -54,6 +54,13 @@ github.io에 올려봤으나 router 에러가 지속적으로 발생하였고
 
 정상적으로 배포
 
+
+### 2022-06-03
+main에 import와 router가 과도하게 몰리고있는 상황
+Effect, 3D, Nav, Button 별 import 해올 수 있는 js를 작성하기
+html, css로 바로 렌더링되는 화면을 볼 수 없어 매번 테스트 코드를 작성해야하므로 
+테스트를 간소화할 수 있게 코드 정리
+
 ## 1.  OverlappingImage
 - 작성일자 : 2022-04-26
 - PR Link : https://github.com/eovhdnjawm1/CSS-Gallery/pull/1
@@ -214,4 +221,9 @@ github.io에 올려봤으나 router 에러가 지속적으로 발생하였고
 - 작성일자 : 2022-06-02
 - PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/1
 <img src="ReadmeImg/EffectClockIcon.gif">
+
+## 28. InputAnimation
+- 작성일자 : 2022-06-03
+- PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/2
+<img src="ReadmeImg/EffectInputAnimation.gif">
 
