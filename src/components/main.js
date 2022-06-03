@@ -29,7 +29,7 @@ import EffectBounceLoading from './EffectsCom/EffectsBounceLoading';
 import NavBarResponsive from './NavBarCom/NavResponsive';
 import NavBarFocusUp from './NavBarCom/NavFocusUp';
 import NavInteraction from './NavBarCom/NavInteraction';
-
+import EffectInputAnimation from './EffectsCom/EffectsInputAnimation';
 
 import EffectClockIcon from './EffectsCom/EffectsClcokInco';
 
@@ -137,7 +137,8 @@ function MainContainer() {
 }></Route>
 
 				
-				<Route path="/detail/0" element={<Card3D />} />
+				<Route path="/detail/0" element={<EffectInputAnimation />} />
+				{/* <Route path="/detail/0" element={<Card3D />} /> */}
 				<Route path="/detail/1" element={<FlipCard />} />
 				<Route path="/detail/2" element={<NeonMovingButton />} />
 				
