@@ -32,6 +32,7 @@ import NavInteraction from './NavBarCom/NavInteraction';
 import EffectInputAnimation from './EffectsCom/EffectsInputAnimation';
 
 import EffectClockIcon from './EffectsCom/EffectsClcokInco';
+import EffectSolar from './EffectsCom/EffectsSolar';
 
 const url = 'https://eovhdnjawm1.github.io/db'
 const json3D = '/3D_data.json'
@@ -135,9 +136,10 @@ function MainContainer() {
 
 			</div>
 }></Route>
-				<Route path="/detail/0" element={<Card3D />} />
-				<Route path="/detail/1" element={<FlipCard />} />
-				<Route path="/detail/2" element={<NeonMovingButton />} />
+				<Route path="/detail/0" element={<EffectSolar />} />
+				<Route path="/detail/1" element={<Card3D />} />
+				<Route path="/detail/2" element={<FlipCard />} />
+				<Route path="/detail/3" element={<NeonMovingButton />} />
 				
 				<Route path="/button/0" element={<ButtonFilter />} />
 				<Route path="/button/1" element={<ButtonMenus />} />
@@ -163,6 +165,7 @@ function MainContainer() {
 				<Route path="/effect/13" element={<EffectBounceLoading />} />
 				<Route path="/effect/14" element={<EffectClockIcon />} />
 				<Route path="/effect/15" element={<EffectInputAnimation />} />
+				<Route path="/effect/16" element={<EffectSolar />} />
 
 
 				<Route path="/navBar/0" element={<NavBarResponsive />} />
