@@ -61,6 +61,16 @@ Effect, 3D, Nav, Button 별 import 해올 수 있는 js를 작성하기
 html, css로 바로 렌더링되는 화면을 볼 수 없어 매번 테스트 코드를 작성해야하므로 
 테스트를 간소화할 수 있게 코드 정리
 
+### 2022-06-04
+js 파일 4개로 router 파일들을 분리완료
+테스트 코드를 미리볼 수 있는 탭 생성 (3d css container 위치)
+
+페이지 렌더링 되는 부분도 분리하고 싶은데
+1차 시도는 각 렌더링 파일마다 json을 새롭게 호출하고있으므로
+이후 Redux를 사용하여 Redux 에서만 json 데이터를 가져오고
+각 js파일에서 상태관리를 해보려고함
+
+
 ## 1.  OverlappingImage
 - 작성일자 : 2022-04-26
 - PR Link : https://github.com/eovhdnjawm1/CSS-Gallery/pull/1
@@ -222,8 +232,13 @@ html, css로 바로 렌더링되는 화면을 볼 수 없어 매번 테스트 �
 - PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/1
 <img src="ReadmeImg/EffectClockIcon.gif">
 
-## 28. InputAnimation
+## 29. InputAnimation
 - 작성일자 : 2022-06-03
 - PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/2
 <img src="ReadmeImg/EffectInputAnimation.gif">
+
+## 30. EffectSolar
+- 작성일자 : 2022-06-04
+- PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/3
+<img src="ReadmeImg/EffectSolar.gif">
 
