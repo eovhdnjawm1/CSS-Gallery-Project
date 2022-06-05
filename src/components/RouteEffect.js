@@ -18,6 +18,7 @@ import EffectClockIcon from './EffectsCom/EffectsClcokInco';
 import EffectSolar from './EffectsCom/EffectsSolar';
 
 
+
 function RouteEffect() {
 
 	return (
