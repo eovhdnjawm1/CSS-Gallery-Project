@@ -242,3 +242,8 @@ js 파일 4개로 router 파일들을 분리완료
 - PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/3
 <img src="ReadmeImg/EffectSolar.gif">
 
+## 31. Vertical loading bar
+- 작성일자 : 2022-06-05
+- PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/4
+<img src="ReadmeImg/EffectVerticalLoading.gif">
+
