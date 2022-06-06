@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import mdnImage from '../../img/over_0.jpg'
 
 let CardBtn = styled.div`
 .cards {
@@ -14,7 +15,7 @@ let CardBtn = styled.div`
 
 	width: 200px;
 	height: 250px;
-	background-image: url('../../img/over_0.jpg') center no-repeat;
+	background: url(${mdnImage});
 	background-size: cover;
 	border: 1px solid rgba(255, 255, 255, 0.25);
 	border-radius: 4px;
@@ -51,7 +52,7 @@ function CssButton() {
 			<CardBtn>
 
 			<div className='cards3D'>
-				<figure className='card' style={{backgroundImage:`url(../../img/over_0.jpg)`}}>
+				<figure className='card'>
 					<figcaption className="card-title">Flower</figcaption>
 				</figure>
 			</div>
