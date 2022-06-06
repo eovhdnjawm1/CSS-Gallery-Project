@@ -70,6 +70,13 @@ js 파일 4개로 router 파일들을 분리완료
 이후 Redux를 사용하여 Redux 에서만 json 데이터를 가져오고
 각 js파일에서 상태관리를 해보려고함
 
+### 2022-06-06
+styled components 내부에서는 그냥 url + 링크를 이용하면 안되는 현상
+img 태그 내에서 style={{}} 을 사용해도 안되는 현상
+2가지 문제가 있어서 3D Card 효과의 이미지가 정상적으로 출력되지 않았고
+해당 문제를 해결하기위해 이미지 자체를 import 해온 뒤 
+styled components img 부분 url(${})로 해결
+
 
 ## 1.  OverlappingImage
 - 작성일자 : 2022-04-26
