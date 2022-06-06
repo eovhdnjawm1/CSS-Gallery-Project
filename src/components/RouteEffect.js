@@ -17,7 +17,7 @@ import EffectInputAnimation from './EffectsCom/EffectsInputAnimation';
 import EffectClockIcon from './EffectsCom/EffectsClcokInco';
 import EffectSolar from './EffectsCom/EffectsSolar';
 import EffectVerticalLoading from './EffectsCom/EffectsVerticalLoading';
-
+import EffectRollupContent from './EffectsCom/EffectsRollup';
 
 function RouteEffect() {
 
@@ -42,6 +42,7 @@ function RouteEffect() {
 				<Route path="/effect/15" element={<EffectInputAnimation />} />
 				<Route path="/effect/16" element={<EffectSolar />} />
 				<Route path="/effect/17" element={<EffectVerticalLoading />} />
+				<Route path="/effect/18" element={<EffectRollupContent />} />
 			</Routes>
 		</>
 	)
