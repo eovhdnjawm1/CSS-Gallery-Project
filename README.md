@@ -247,3 +247,8 @@ js 파일 4개로 router 파일들을 분리완료
 - PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/4
 <img src="ReadmeImg/EffectVerticalLoading.gif">
 
+## 32. Rollup Content
+- 작성일자 : 2022-06-06
+- PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/5
+<img src="ReadmeImg/EffectRollup.gif">
+
