@@ -1,7 +1,16 @@
-import styled from 'styled-components'
+import styled, {keyframes} from 'styled-components'
 
-let BounceLoading = styled.div`
-.BounceContainer {
+const Bounce = keyframes`
+	from {
+		transform: scaleX(1.25);
+	}
+
+	to {
+		transform: translateY(-50px) scaleX(1);
+	}
+`
+
+const BounceLoading = styled.div`
 	margin: auto;
 	padding-top: 50px;
 	width: 120px;
@@ -10,57 +19,41 @@ let BounceLoading = styled.div`
 	flex-wrap: wrap;
 	align-items: flex-end;
 	justify-content: space-between;
-}
+`
 
-
-.BounceContainer span {
-	font-size: 22px;
-	text-transform: uppercase;
-	margin: auto;
-	color: #fff;
-}
-
-.BounceContainer .ball {
+const Ball = styled.div`
 	width: 25px;
 	height: 25px;
 	border-radius: 50%;
 	background-color: #fff;
-	animation: bounce .5s alternate infinite;
-}
+	animation: ${Bounce} .5s alternate infinite;
 
-.BounceContainer .ball:nth-child(2) {
+&:nth-child(2) {
 	animation-delay: .2s;
 }
 
-.BounceContainer .ball:nth-child(3) {
+&:nth-child(3) {
 	animation-delay: .4s;
-}
-
-@keyframes bounce {
-	from {
-		transform: scaleX(1.25);
-	}
-
-	to {
-		transform: translateY(-50px) scaleX(1);
-	}
 }
 `
 
+const BallText = styled.span`
+	font-size: 22px;
+	text-transform: uppercase;
+	margin: auto;
+	color: #fff;
+`
+
+
+
 function EffectBounceLoading() {
 	return (
-		<>
 			<BounceLoading>
-			<div class="BounceContainer">
-			<div className='ball'></div>
-			<div className='ball'></div>
-			<div className='ball'></div>
-			<span>Loading...</span>
-		</div>
-
-			</BounceLoading>
-		</>
-
+			<Ball className='ball'></Ball>
+			<Ball className='ball'></Ball>
+			<Ball className='ball'></Ball>
+			<BallText>Loading...</BallText>
+		</BounceLoading>
 	)
 }
 
