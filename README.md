@@ -83,6 +83,9 @@ styled components img 부분 url(${})로 해결
 애니메이션을 @keyframes 로 작성하는 것이 아닌 styled components keyframes을 사용하는 방식으로
 제작을 해보았음
 
+### 2022-06-10
+툴팁을 제작하며 styled-components 사용방법에 점점 익숙해지는 중
+다양한 선택자를 사용해보고 있음
 
 ## 1.  OverlappingImage
 - 작성일자 : 2022-04-26
@@ -274,4 +277,9 @@ styled components img 부분 url(${})로 해결
 - 작성일자 : 2022-06-09
 - PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/7
 <img src="ReadmeImg/EffectBasketBall.gif">
+
+## 36. Tool Tip
+- 작성일자 : 2022-06-10
+- PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/8
+<img src="ReadmeImg/EffectToolTip.gif">
 
