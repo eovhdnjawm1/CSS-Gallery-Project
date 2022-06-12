@@ -20,6 +20,9 @@ import EffectVerticalLoading from './EffectsCom/EffectsVerticalLoading';
 import EffectRollupContent from './EffectsCom/EffectsRollup';
 import EffectBasketBall from './EffectsCom/EffectsBasketBall';
 import EffectToolTip from './EffectsCom/EffectsToolTip';
+import EffectImageDetails from './EffectsCom/EffectsImageDetails';
+
+
 
 function RouteEffect() {
 
@@ -47,6 +50,7 @@ function RouteEffect() {
 				<Route path="/effect/18" element={<EffectRollupContent />} />
 				<Route path="/effect/19" element={<EffectBasketBall />} />
 				<Route path="/effect/20" element={<EffectToolTip />} />
+				<Route path="/effect/21" element={<EffectImageDetails />} />
 			</Routes>
 		</>
 	)
