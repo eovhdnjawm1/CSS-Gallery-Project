@@ -283,3 +283,8 @@ styled components img 부분 url(${})로 해결
 - PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/8
 <img src="ReadmeImg/EffectToolTip.gif">
 
+## 37. ImageDetails
+- 작성일자 : 2022-06-12
+- PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/9
+<img src="ReadmeImg/EffectImageDetails.gif">
+
