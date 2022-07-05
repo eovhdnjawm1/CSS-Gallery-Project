@@ -100,6 +100,13 @@ styled components img 부분 url(${})로 해결
 툴팁을 제작하며 styled-components 사용방법에 점점 익숙해지는 중
 다양한 선택자를 사용해보고 있음
 
+### 2022-07-05
+
+몇몇 회사의 면접과 기술과제를 진행하느라 해당 프로젝트 진행이 더딘상황...
+노마드 리엑트 챌린지와 타입스크립트 챌린지도 정신없는 상황
+빠르게 하나씩 마무리도 하고 취업도 되었으면 좋겠다.
+마음편히 해당 프로젝트 진행하고 싶다.
+
 ## 1. OverlappingImage
 
 - 작성일자 : 2022-04-26
@@ -336,3 +343,9 @@ styled components img 부분 url(${})로 해결
 - 작성일자 : 2022-06-17
 - PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/10
   <img src="ReadmeImg/ButtonInteraction.gif">
+
+## 39. ButtonInteraction
+
+- 작성일자 : 2022-07-05
+- PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/11
+  <img src="ReadmeImg/ButtonArrow.gif">
