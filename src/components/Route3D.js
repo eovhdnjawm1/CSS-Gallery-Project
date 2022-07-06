@@ -17,6 +17,7 @@ function Route3D() {
 				<Route path="/detail/2" element={<FlipCard />} />
 				<Route path="/detail/3" element={<NeonMovingButton />} />
 				<Route path="/detail/4" element={<Rotate3D />} />
+				<Route path="/detail/5" element={<Bird3D />} />
 			</Routes>
 		</>
 	)
