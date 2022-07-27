@@ -8,7 +8,7 @@ import ButtonPusleAni from './ButtonCom/ButtonPulseAni';
 import ButtonShadow from './ButtonCom/ButtonShadow';
 import ButtonInteraction from './ButtonCom/ButtonInteraction';
 import ButtonArrow from './ButtonCom/ButtonArrow';
-
+import ButtonBullet from './ButtonCom/ButtonBullet';
 
 function RouteButton() {
 
@@ -25,6 +25,7 @@ function RouteButton() {
 				<Route path="/button/6" element={<ButtonShadow />} />
 				<Route path="/button/7" element={<ButtonInteraction />} />
 				<Route path="/button/8" element={<ButtonArrow />} />
+				<Route path="/button/9" element={<ButtonBullet />} />
 			</Routes>
 		</>
 	)
