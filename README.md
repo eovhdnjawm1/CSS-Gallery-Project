@@ -349,3 +349,15 @@ styled components img 부분 url(${})로 해결
 - 작성일자 : 2022-07-05
 - PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/11
   <img src="ReadmeImg/ButtonArrow.gif">
+
+## 40. 3D Bird
+
+- 작성일자 : 2022-07-13
+- PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/12
+  <img src="ReadmeImg/3DBird.gif">
+
+## 41. BulletButton
+
+- 작성일자 : 2022-07-27
+- PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/13
+  <img src="ReadmeImg/BulletButton.gif">
