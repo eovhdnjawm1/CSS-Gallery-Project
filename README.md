@@ -361,3 +361,9 @@ styled components img 부분 url(${})로 해결
 - 작성일자 : 2022-07-27
 - PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/13
   <img src="ReadmeImg/BulletButton.gif">
+
+## 42. Tadpole Loading
+
+- 작성일자 : 2022-07-28
+- PR Link : https://github.com/eovhdnjawm1/CSS-Gallery-Project/pull/14
+  <img src="ReadmeImg/EffectTadpole.gif">
