@@ -22,6 +22,7 @@ import EffectBasketBall from './EffectsCom/EffectsBasketBall';
 import EffectToolTip from './EffectsCom/EffectsToolTip';
 import EffectImageDetails from './EffectsCom/EffectsImageDetails';
 import EffectTadpole from './EffectsCom/EffectTadpole';
+import EffectWaveLoading from './EffectsCom/EffectsWaveLoading';
 
 
 
@@ -53,6 +54,7 @@ function RouteEffect() {
 				<Route path="/effect/20" element={<EffectToolTip />} />
 				<Route path="/effect/21" element={<EffectImageDetails />} />
 				<Route path="/effect/22" element={<EffectTadpole />} />
+				<Route path="/effect/23" element={<EffectWaveLoading />} />
 			</Routes>
 		</>
 	)
